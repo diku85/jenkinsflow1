@@ -26,6 +26,7 @@ public class Testcases {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		WebElement ele = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@name='username']")));
 		System.out.println(driver.getCurrentUrl());
+		System.out.println("Adding code");
 	}
 
 	@Test

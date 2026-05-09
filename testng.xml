@@ -5,5 +5,5 @@
     <classes>
       <class name="com.qa.testcases.Testcases"/>
     </classes>
-  </test> <!-- Test -->
+  </test> <!-- Test --> 
 </suite> <!-- Suite -->
