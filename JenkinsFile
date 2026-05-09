@@ -11,7 +11,7 @@ pipeline {
 
         stage('Code Checkout') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/jenkins-maven-demo.git'
+                git 'git@github.com:diku85/jenkinsflow1.git'
             }
         }
 
