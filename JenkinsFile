@@ -9,12 +9,6 @@ pipeline {
 
     stages {
 
-        stage('Code Checkout') {
-            steps {
-                git 'git@github.com:diku85/jenkinsflow1.git'
-            }
-        }
-
         stage('Compile') {
             steps {
                 sh 'mvn compile'
