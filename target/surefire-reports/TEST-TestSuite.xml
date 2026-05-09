@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="13.633" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\dilli\eclipse-workspace\jenkinsflow1\target\test-classes;C:\Users\dilli\eclipse-workspace\jenkinsflow1\target\classes;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-java\4.35.0\selenium-java-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-api\4.35.0\selenium-api-4.35.0.jar;C:\Users\dilli\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.35.0\selenium-chrome-driver-4.35.0.jar;C:\Users\dilli\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.35.0\selenium-chromium-driver-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-json\4.35.0\selenium-json-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.35.0\selenium-manager-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.35.0\selenium-devtools-v137-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.35.0\selenium-devtools-v138-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v139\4.35.0\selenium-devtools-v139-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.35.0\selenium-edge-driver-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.35.0\selenium-firefox-driver-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-http\4.35.0\selenium-http-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.35.0\selenium-ie-driver-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.35.0\selenium-remote-driver-4.35.0.jar;C:\Users\dilli\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\dilli\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\dilli\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\dilli\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\dilli\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\dilli\.m2\repository\io\opentelemetry\opentelemetry-api\1.53.0\opentelemetry-api-1.53.0.jar;C:\Users\dilli\.m2\repository\io\opentelemetry\opentelemetry-context\1.53.0\opentelemetry-context-1.53.0.jar;C:\Users\dilli\.m2\repository\io\opentelemetry\opentelemetry-common\1.53.0\opentelemetry-common-1.53.0.jar;C:\Users\dilli\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.53.0\opentelemetry-exporter-logging-1.53.0.jar;C:\Users\dilli\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.53.0\opentelemetry-sdk-common-1.53.0.jar;C:\Users\dilli\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.53.0\opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar;C:\Users\dilli\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.53.0\opentelemetry-sdk-extension-autoconfigure-1.53.0.jar;C:\Users\dilli\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.53.0\opentelemetry-sdk-trace-1.53.0.jar;C:\Users\dilli\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.53.0\opentelemetry-sdk-1.53.0.jar;C:\Users\dilli\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.53.0\opentelemetry-sdk-metrics-1.53.0.jar;C:\Users\dilli\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.53.0\opentelemetry-sdk-logs-1.53.0.jar;C:\Users\dilli\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-os\4.35.0\selenium-os-4.35.0.jar;C:\Users\dilli\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.35.0\selenium-safari-driver-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-support\4.35.0\selenium-support-4.35.0.jar;C:\Users\dilli\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Users\dilli\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\Users\dilli\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\dilli\AppData\Local\Temp\surefire13916295283482574419\surefirebooter-20260509185941773_3.jar C:\Users\dilli\AppData\Local\Temp\surefire13916295283482574419 2026-05-09T18-59-41_181-jvmRun1 surefire-20260509185941773_1tmp surefire_0-20260509185941773_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\dilli\eclipse-workspace\jenkinsflow1\target\test-classes;C:\Users\dilli\eclipse-workspace\jenkinsflow1\target\classes;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-java\4.35.0\selenium-java-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-api\4.35.0\selenium-api-4.35.0.jar;C:\Users\dilli\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.35.0\selenium-chrome-driver-4.35.0.jar;C:\Users\dilli\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.35.0\selenium-chromium-driver-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-json\4.35.0\selenium-json-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.35.0\selenium-manager-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.35.0\selenium-devtools-v137-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.35.0\selenium-devtools-v138-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v139\4.35.0\selenium-devtools-v139-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.35.0\selenium-edge-driver-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.35.0\selenium-firefox-driver-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-http\4.35.0\selenium-http-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.35.0\selenium-ie-driver-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.35.0\selenium-remote-driver-4.35.0.jar;C:\Users\dilli\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\dilli\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\dilli\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\dilli\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\dilli\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\dilli\.m2\repository\io\opentelemetry\opentelemetry-api\1.53.0\opentelemetry-api-1.53.0.jar;C:\Users\dilli\.m2\repository\io\opentelemetry\opentelemetry-context\1.53.0\opentelemetry-context-1.53.0.jar;C:\Users\dilli\.m2\repository\io\opentelemetry\opentelemetry-common\1.53.0\opentelemetry-common-1.53.0.jar;C:\Users\dilli\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.53.0\opentelemetry-exporter-logging-1.53.0.jar;C:\Users\dilli\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.53.0\opentelemetry-sdk-common-1.53.0.jar;C:\Users\dilli\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.53.0\opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar;C:\Users\dilli\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.53.0\opentelemetry-sdk-extension-autoconfigure-1.53.0.jar;C:\Users\dilli\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.53.0\opentelemetry-sdk-trace-1.53.0.jar;C:\Users\dilli\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.53.0\opentelemetry-sdk-1.53.0.jar;C:\Users\dilli\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.53.0\opentelemetry-sdk-metrics-1.53.0.jar;C:\Users\dilli\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.53.0\opentelemetry-sdk-logs-1.53.0.jar;C:\Users\dilli\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-os\4.35.0\selenium-os-4.35.0.jar;C:\Users\dilli\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.35.0\selenium-safari-driver-4.35.0.jar;C:\Users\dilli\.m2\repository\org\seleniumhq\selenium\selenium-support\4.35.0\selenium-support-4.35.0.jar;C:\Users\dilli\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Users\dilli\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\Users\dilli\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\dilli"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\dilli\eclipse-workspace\jenkinsflow1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\dilli\AppData\Local\Temp\surefire13916295283482574419\surefirebooter-20260509185941773_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.16+12-LTS-247"/>
+    <property name="user.name" value="dilli"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\dilli\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\dilli\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.16"/>
+    <property name="user.dir" value="C:\Users\dilli\eclipse-workspace\jenkinsflow1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Users/dilli/Downloads/eclipse-java-2025-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412/jre/bin/server;C:/Users/dilli/Downloads/eclipse-java-2025-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412/jre/bin;C:\app\dilli\product\21c\dbhomeXE\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\PuTTY\;C:\Users\dilli\Downloads\apache-maven-3.9.12-bin\apache-maven-3.9.12\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\dilli\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\dilli\AppData\Local\Programs\Python\Python313\;C:\Users\dilli\AppData\Local\Programs\Python\Launcher\;C:\Users\dilli\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm 2025.1.1.1\bin;;C:\Users\dilli\Downloads\eclipse-java-2025-06-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.16+12-LTS-247"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="TC1" classname="com.qa.testcases.Testcases" time="10.599">
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+https://classic.freecrm.com/index.html
+]]></system-out>
+  </testcase>
+  <testcase name="TC2" classname="com.qa.testcases.Testcases" time="0.274">
+    <system-out><![CDATA[Free CRM software for customer relationship management, sales, and support.
+]]></system-out>
+    <system-err><![CDATA[May 09, 2026 6:59:55 P.M. org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:984)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:939)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:939)
+
+]]></system-err>
+  </testcase>
+</testsuite>
